@@ -6,11 +6,13 @@
 
 .txt{
     margin-top: 100px;
+    
 }
 
 .img-fluid{
    height: 350px;
    width: 350px;
    border-radius:20px; 
-    border-color: rgb(6, 107, 169);
+  border-color: rgb(6, 107, 169);
 }
+
