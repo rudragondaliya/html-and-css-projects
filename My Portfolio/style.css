@@ -177,23 +177,6 @@ margin-top: 100px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.navbar{
-    position: relative;
-}
-
-.links::before{
-    content: "";
-    height: 2px;
-    width: 100%;
-    background-color: rgb(20, 178, 241);
-    position: absolute;
-    top: 40px;
-    opacity: 1;
-    transition: all 1s;
-}
-
-.links:hover::after{
-    opacity: 1;
-    pointer-events: none;
-
+.project{
+    margin-top: 100px
 }
