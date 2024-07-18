@@ -49,7 +49,7 @@
 
       <!-- B A N N E R - S E C T I O N -->
 
-     <div class="container-fluid banner bg-black" >
+     <div class="container-fluid banner bg-black shadow-lg" >
       <div class="row ">
         <div class=" col-md-6 col-lg-6 col-xl-6 col-xxl-6 ">
            <div class="txt container display-6 text-center">
@@ -94,11 +94,11 @@
 
  <div class="display-4 text-primary fw-semibold text-center mx-auto  heading">Services</div>
 
-    <div class="container-fluid services mt-5 mx-auto border border-4">
+    <div class="container-fluid services mt-5 mx-auto   shadow-lg">
       <div class="row">
         <div class="col-md-12 col-lg-4 r">
          <!-- C A R D - 1 -->
-          <div class="card  mt-3 mx-auto border border-3 border-primary " style="width: 18rem;">
+          <div class="card  cards  mt-2 mx-auto  " style="width: 18rem;">
            
             <img src="./images/frontend.png" class="card-img-top mt-2  container" alt="...">
             <div class="card-body">
@@ -117,7 +117,7 @@
 
           <!--C A R D - 2  -->
           <div class="col-md-12 col-lg-4 ">
-          <div class="card mt-3 mx-auto border border-3 border-primary" style="width: 18rem;">
+          <div class="card mt-2 mx-auto" style="width: 18rem;">
             <img src="./images/database.png" class="card-img-top mt-2 container" alt="...">
             <div class="card-body">
               <h5 class="card-title text-primary">BACKEND</h5>
@@ -134,7 +134,7 @@
 
           <!-- C A R D - 3 -->
           <div class="col-md-12 col-lg-4  ">
-          <div class="card mt-3 mx-auto border border-3 border-primary" style="width: 18rem;">
+          <div class="card m-2 mx-auto " style="width: 18rem;">
             <img src="./images/ellipse.png" class="card-img-top mt-2 container" alt="...">
             <div class="card-body">
               <h5 class="card-title text-primary">OTHERS</h5>
@@ -155,23 +155,56 @@
 
 
     <!--------------------------------------------------------- P R O J E C T S  --------------------------------------------------------------------------->
-   
+
+      
     <div class="display-4 text-primary fw-semibold text-center mx-auto  heading">Projects</div>
 
     <div class="container-fluid project border border-3 border-primary">
       <!-- row-1 -->
       <div class="row">
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xxl-6 border border-3 border-danger">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xxl-6 ">
           <div class="m-5 border border-5 border-primary">
-         <img src="./images/medical.png" alt="" style="height: 285px;">
+         <img src="./images/medical.png" alt="" class="img-fluid" style="width:100%; height:400px">
         </div>
         </div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xxl-6"></div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xxl-6 rounded-start-pill bg-primary">
+          <div class="text-white text-center" style="margin-top: 40px;">
+            
+            <div class="display-6 text-center">Medical-website</div>
+            <p class="text-center mt-4">This is a Medical-Website which contains <br> Medical support by 24/7 and highly educated doctors <br> which provides a healthy check-up thus, we provide <br> the best doctors and medicine <br>A well-designed medical website can help <br> healthcare professionals  connect with patients, <br> provide valuable information, and showcase their services</p>
+
+            <p class="text-center"><i class='bx bxl-html5'></i> <span><i class='bx bxl-css3' ></i></span></p>
+
+            <a href="https://vermillion-sundae-609ece.netlify.app/" class="btn btn-warning" style="margin-left:10px;">Preview</a>
+            <a href="https://github.com/rudragondaliya/medical-project" class="btn btn-warning">Code</a>
+
+          </div>
+        </div>
       </div>
       <!-- row-2 -->
       <div class="row">
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xxl-6"></div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xxl-6"></div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xxl-6 rounded-end-circle bg-primary">
+          <div class="text-white text-center" style="margin-top: 40px;">
+
+            <div class="display-6 text-center">Admin Pannel</div>
+            <p class="text-center mt-4">An admin panel or a control panel is a system  <br>that enables administrators and other <br> website workers to conduct various tasks <br> like monitoring, maintaining, <br> and controlling certain business processes. <br> An admin dashboard is one of the <br> core components of a control panel.</p>
+
+            <p class="text-center"><i class='bx bxl-html5'></i> <span><i class='bx bxl-css3' ></i></span> <span><i class='bx bxl-jquery' ></i></span></p>
+
+
+            <a href="https://brilliant-paprenjak-84106e.netlify.app/" class="btn btn-warning">Preview</a>
+            <a href="https://github.com/rudragondaliya/Admin-Pannel" class="btn btn-warning">Code</a>
+
+
+
+
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xxl-6">
+          <div class="m-5 border border-5 border-primary">
+            <img src="./images/admin.png" alt="" class="img-fluid" style="width:100%; height:400px">
+          </div>
+        </div>
       </div>
       <!-- row-3 -->
        <div class="row">
@@ -187,6 +220,8 @@
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     
     <script src="https://cdn.jsdelivr.net/npm/jquery-animated-headlines@1.0.0/dist/js/jquery.animatedheadline.min.js"></script>
+
+    
 
     <script src="./script.js"></script>
 
