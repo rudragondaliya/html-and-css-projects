@@ -1,7 +1,9 @@
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
+
 
 
 .txt{
@@ -193,4 +195,11 @@ margin-top: 100px;
     position: absolute;
     margin-top: 10px;
     margin-left: 10px;
+}
+
+#particles.js{
+    position: fixed;
+    height: auto;
+    z-index: 100;
+
 }
